@@ -1,0 +1,108 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    h1{font-size:25px;
+    color:TEAL;
+text-align: left;}
+    p{
+        color:#c0e218;
+        font-size:8px;
+        font-weight: 100;
+        line-height: 10px;
+        word-spacing: 1px;
+        font-family: cursive;
+        letter-spacing: 1px;
+    }
+ }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    h1{
+        font-size: 30px;
+        color:magenta;
+        text-align: center;
+    }
+    p{
+        color:#008891;
+        font-size:16px;
+        font-weight: 200;
+        line-height: 14px;
+        word-spacing: 4px;
+        font-family: fantasy;
+        letter-spacing: 4px;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    h1{
+        font-size: 35px;
+        color:rgb(24, 212, 187);
+        text-align: right;
+    }
+    p{
+        color:#ffb396;
+        font-size:22px;
+        font-weight: 300;
+        line-height: 16px;
+        word-spacing: 6px;
+        font-family: cursive;
+        letter-spacing: 6px;
+    }
+  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    h1{
+        font-size: 40px;
+        color:rgb(90, 39, 228);
+        text-align: left;
+    }
+    p{
+        color:#cab306;
+        font-size:34px;
+        font-weight: 400;
+        line-height: 28px;
+        word-spacing: 8px;
+        font-family: serif;
+        
+        letter-spacing: 8px;
+    }
+ }
+/* // Extra Large devices (desktops, 1200px and up) */
+
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    h1{
+        font-size: 45px;
+        color:rgb(228, 168, 39);
+        text-align: right;
+
+    }
+    p{
+        color:#ff8585;
+        font-size:36px;
+        font-weight: 600;
+        line-height: 30px;
+        word-spacing: 10px;
+        font-family: sans-serif;
+        
+        letter-spacing: 10px;
+    }
+ }
+/* // Extra extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) {  
+    h1{
+        font-size: 50px;
+        color:rgb(190, 239, 28);
+        text-align: center;
+    }
+    p{
+        color:#ff4646;
+        font-size:38px;
+        font-weight: 700;
+        line-height: 32px;
+        word-spacing: 12px;
+        font-family: monospace;
+        
+        letter-spacing: 4px;
+    }
+ }
